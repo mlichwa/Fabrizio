@@ -1,8 +1,6 @@
-![Built With Parcel](https://img.shields.io/badge/Built%20With-Parcel-yellow?style=for-the-badge)
 
-Read detailed blog on how and why to use at - [https://dev.to/insanenaman/starter-kit-for-static-websites-52hl](https://dev.to/insanenaman/starter-kit-for-static-websites-52hl)
 
-## Parcel Static Website Starter
+## Fabrizios website
 
 ### Features 🚀
 
