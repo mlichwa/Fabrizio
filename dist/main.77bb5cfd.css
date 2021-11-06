@@ -5,15 +5,24 @@
   -webkit-text-fill-color: transparent;
 }
 
+@font-face {
+  font-family: "Ana's Faded Typewriter";
+  src: url("/AnasFadedTypewriter.b3422b42.eot");
+  src: url("/AnasFadedTypewriter.b3422b42.eot?#iefix") format("embedded-opentype"), url("/AnasFadedTypewriter.4809e375.woff2") format("woff2"), url("/AnasFadedTypewriter.05f8f7fb.woff") format("woff"), url("/AnasFadedTypewriter.b2ceeafd.svg#AnasFadedTypewriter") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   display: flex;
   align-items: center;
   height: 100vh;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
-  background-color: #2c2b2b;
+  background-color: black;
   color: white;
   text-align: center;
+  font-size: 16px;
 }
 
 .hero {
@@ -33,13 +42,6 @@ body {
   align-items: center;
 }
 
-#logo {
-  text-decoration: none;
-  color: white;
-  font-size: 1em;
-  font-weight: bold;
-}
-
 .hero_content {
   display: flex;
   width: 100%;
@@ -49,7 +51,8 @@ body {
 }
 
 .txt {
-  font-size: 3em;
+  font-size: 7em;
+  font-family: "Ana's Faded Typewriter";
 }
 
 .hero-title {
@@ -73,23 +76,35 @@ body {
 article {
   max-width: 36em;
   margin: 0 auto;
-  padding: 1em;
-  padding-top: 5em;
+  padding: 5em 1em;
+  text-align: left;
+}
+article p {
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
+  line-height: 1.7;
+  font-size: 17px;
+}
+article a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0px;
 }
 
 .navigation {
   top: 0;
   right: 0;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.521);
+  background-color: black;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 20px 20px;
 }
-
-a {
+.navigation a {
+  font-size: 0.8rem;
   color: white;
   font-weight: 100;
   letter-spacing: 2px;
@@ -98,8 +113,7 @@ a {
   display: inline-block;
   text-align: center;
 }
-
-a:hover {
+.navigation a:hover {
   background: rgba(57, 57, 57, 0.75);
 }
 
