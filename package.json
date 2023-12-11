@@ -22,8 +22,5 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
         "smoothscroll-polyfill": "^0.4.4"
-    },
-    "engines": {
-        "node": "18.x"
     }
 }
