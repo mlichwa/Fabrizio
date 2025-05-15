@@ -1,25 +1,24 @@
 {
-    "name": "fabrizio",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "reset": "rimraf dist && rimraf .cache",
-        "start": "rimraf dist && parcel serve src/index.html",
-        "copy": "cp static/fabrizio_animation.json dist/",
-        "build": "rimraf dist && parcel build src/index.html --no-cache --public-url ./"
-    },
-    "author": "Michal Lichwa",
-    "license": "",
-    "devDependencies": {
-        "@parcel/transformer-sass": "^2.10.3",
-        "autoprefixer": "^9.6.1",
-        "parcel": "^2.0.0",
-        "postcss-modules": "^3.2.2",
-        "rimraf": "^5.0.5",
-        "sass": "^1.26.11"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.4",
-        "smoothscroll-polyfill": "^0.4.4"
-    }
+  "name": "fabrizio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "reset": "rimraf dist && rimraf .cache",
+    "start": "rimraf dist && parcel serve src/index.html",
+    "copy": "cp static/fabrizio_animation.json dist/",
+    "build": "rimraf dist && parcel build src/index.html --no-cache --public-url ./"
+  },
+  "author": "Michal Lichwa",
+  "license": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "autoprefixer": "^10.4.16",
+    "parcel": "^2.11.0",
+    "postcss-modules": "^6.0.0",
+    "rimraf": "^5.0.5",
+    "sass": "^1.69.7"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1"
+  }
 }
